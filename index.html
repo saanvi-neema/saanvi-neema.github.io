@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saanvi Neema</title>
+  <meta name="description" content="Personal website of Saanvi Neema.">
+  <style>
+    :root {
+      --bg: #fafaf8;
+      --text: #1c1c1a;
+      --muted: #6b6b66;
+      --accent: #2f6f4f;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #141413;
+        --text: #ededea;
+        --muted: #9a9a94;
+        --accent: #7fc4a0;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+    main { max-width: 560px; width: 100%; }
+    h1 {
+      font-size: clamp(2rem, 6vw, 3rem);
+      font-weight: 650;
+      letter-spacing: -0.02em;
+      margin: 0 0 8px;
+    }
+    p { margin: 0 0 16px; color: var(--muted); font-size: 1.1rem; }
+    .note {
+      display: inline-block;
+      margin-top: 8px;
+      font-size: 0.9rem;
+      color: var(--accent);
+      border-top: 1px solid currentColor;
+      padding-top: 12px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Saanvi Neema</h1>
+    <p>Welcome! More about me, my work, and my projects is coming soon.</p>
+    <span class="note">Site under construction</span>
+  </main>
+</body>
+</html>
