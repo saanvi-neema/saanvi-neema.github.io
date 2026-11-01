@@ -4,58 +4,58 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Saanvi Neema</title>
-  <meta name="description" content="Personal website of Saanvi Neema.">
-  <style>
-    :root {
-      --bg: #fafaf8;
-      --text: #1c1c1a;
-      --muted: #6b6b66;
-      --accent: #2f6f4f;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #141413;
-        --text: #ededea;
-        --muted: #9a9a94;
-        --accent: #7fc4a0;
-      }
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 24px 16px;
-      background: var(--bg);
-      color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.6;
-    }
-    main { max-width: 560px; width: 100%; }
-    h1 {
-      font-size: clamp(2rem, 6vw, 3rem);
-      font-weight: 650;
-      letter-spacing: -0.02em;
-      margin: 0 0 8px;
-    }
-    p { margin: 0 0 16px; color: var(--muted); font-size: 1.1rem; }
-    .note {
-      display: inline-block;
-      margin-top: 8px;
-      font-size: 0.9rem;
-      color: var(--accent);
-      border-top: 1px solid currentColor;
-      padding-top: 12px;
-    }
-  </style>
+  <meta name="description" content="Saanvi Neema: student researcher in machine learning, health, and climate tech.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <h1>Saanvi Neema</h1>
-    <p>Welcome! More about me, my work, and my projects is coming soon.</p>
-    <span class="note">Site under construction</span>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="index.html">Saanvi Neema</a>
+      <nav>
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="research.html">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="awards.html">Awards &amp; Programs</a>
+        <a href="leadership.html">Leadership</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="hero">
+      <div class="avatar" aria-hidden="true">SN</div>
+      <div>
+        <h1>Saanvi Neema</h1>
+        <p class="tagline">Student at Lynbrook High School · Machine learning, health &amp; climate tech</p>
+      </div>
+    </div>
+
+    <p class="lede" style="margin-top: 24px;">
+      I use machine learning and software to work on problems in health, neuroscience, and climate.
+      I've co-authored research on EEG-based Parkinson's detection, I'm doing independent research
+      on metaplasticity with a Dartmouth mentor, and I founded ClimateTech Scholars to teach students
+      how to apply AI to climate solutions.
+    </p>
+
+    <h2>Highlights</h2>
+    <ul class="highlights">
+      <li>Co-author, EEG Parkinson's detection paper, accepted to the <strong>MICCAI 2026 AMAI Workshop</strong></li>
+      <li><strong>Apple Swift Student Challenge Winner</strong>, 2026, for ClarityCoach</li>
+      <li>Independent research on metaplasticity and learning rates, mentored by <strong>Dr. Alireza Soltani, Dartmouth</strong></li>
+      <li>Founder of <strong>ClimateTech Scholars</strong>, a youth organization teaching AI and data science for climate solutions</li>
+    </ul>
+
+    <h2>Explore</h2>
+    <div class="cards">
+      <a class="card" href="research.html"><strong>Research</strong><span>Publications and ongoing research</span></a>
+      <a class="card" href="projects.html"><strong>Projects</strong><span>Apps, algorithms, and satellite data</span></a>
+      <a class="card" href="awards.html"><strong>Awards &amp; Programs</strong><span>Recognition and programs</span></a>
+      <a class="card" href="leadership.html"><strong>Leadership</strong><span>Clubs and ClimateTech Scholars</span></a>
+    </div>
   </main>
+
+  <footer>
+    <div class="wrap">© 2026 Saanvi Neema</div>
+  </footer>
 </body>
 </html>
